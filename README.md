@@ -1,7 +1,7 @@
 # Undiscord-BetterDiscord
 A BetterDiscord port of victornpb's Undiscord.
 
-Credit for source goes to [victornpnb](https://github.com/victornpb), you can find the original source [here](https://github.com/victornpb/deleteDiscordMessages).
+Credit for source goes to [victornpb](https://github.com/victornpb), you can find the original source [here](https://github.com/victornpb/deleteDiscordMessages).
 
 # About
 
