@@ -3,7 +3,7 @@
  * @version 1.0.0
  * @description A ported version of Tampermonkey Undiscord by Victorpnb
  * @author falln#0001
- * @website https://betterdiscord.app/
+ * @website https://github.com/fallnx/Undiscord-BetterDiscord
  */
 
 module.exports = class Undiscord {
@@ -270,7 +270,7 @@ module.exports = class Undiscord {
             let resp;
             try {
               const s = Date.now();
-              const API_DELETE_URL = `https://discord.com/api/v6/channels/${message.channel_id}/messages/${message.id}`;
+              const API_DELETE_URL = `https://discord.com/api/v9/channels/${message.channel_id}/messages/${message.id}`;
               resp = await fetch(API_DELETE_URL, {
                 headers,
                 method: "DELETE",
